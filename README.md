@@ -4,6 +4,11 @@ A clean, minimalist word-guessing game built with Python, `ttkbootstrap`, and SQ
 
 ---
 
+## 🛠️ Built With
+- Python 3 – Core application and game logic (GameLogic.py)
+- Tkinter / ttkbootstrap – Graphical user interface (gui.py)
+- SQLite – Score tracking & history database (DB.py)
+
 ## About
 
 The goal is to guess a hidden 5-letter word in 6 attempts or fewer. Each guess provides color-coded feedback:
@@ -28,7 +33,3 @@ The goal is to guess a hidden 5-letter word in 6 attempts or fewer. Each guess p
    ```bash
    python gui.py
 
-## 🛠️ Built With
-- Python 3 – Core application and game logic (GameLogic.py)
-- Tkinter / ttkbootstrap – Graphical user interface (gui.py)
-- SQLite – Score tracking & history database (DB.py)
