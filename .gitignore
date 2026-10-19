@@ -1,20 +1,15 @@
-# Œrodowisko wirtualne Python
 .venv/
 venv/
 ENV/
 
-# Pamiêæ podrêczna Pythona (pliki skompilowane)
 __pycache__/
 *.py[cod]
 
-# Pliki konfiguracyjne PyCharm / IntelliJ
 .idea/
 
-# Bazy danych SQLite (pliki lokalne)
 *.db
 *.sqlite
 *.sqlite3
 
-# Pliki systemowe i tymczasowe
 .DS_Store
 Thumbs.db
